@@ -1,8 +1,11 @@
 @import "bootstrap/scss/bootstrap-grid";
+@import url("https://fonts.googleapis.com/css2?family=Nabla:EDPT,EHLT@30..200,24&display=swap");
 @import "font";
 @import "base";
 @import "layout";
-@import "modules/example";
+@import "modules/first";
+@import "modules/aboutme";
+@import "modules/project-card";
 
 .row + .row {
   margin-top: 16px;

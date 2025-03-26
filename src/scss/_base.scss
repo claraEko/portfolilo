@@ -1,3 +1,8 @@
+:root {
+  --light-blue: #73acf3;
+  --darck-blue: #2077e2;
+  --white: #fffefd;
+}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,21 +17,16 @@ img,
 video {
   display: block;
 }
-// https://nabla.typearture.com/ <-- lien de la fonte
 
-// @font-palette-values --custom {
-//   override-colors: 0 rgb(76, 69, 42), 1 rgb(77, 56, 51), 2 rgb(46, 42, 35),
-//     3 rgb(101, 84, 67), 4 rgb(101, 97, 78), 5 rgb(51, 50, 46), 6 rgb(5, 5, 5),
-//     7 rgb(88, 86, 75), 8 rgb(83, 82, 75), 9 rgb(43, 39, 39);
-// }
-
-// .first-big-title {
-//   font-family: Nabla;
-//   font-palette: --custom;
-// }
-
-:root {
-  --light-blue: #73acf3;
-  --darck-blue: #2077e2;
-  --white: #fffefd;
+@font-palette-values --Nabla-blue {
+  font-family: Nabla;
+  // couleurs personnalisées
+  override-colors: 0 #2077e2, 1 #2077e2, 2 #2077e2, 3 #2077e2, 4 #2077e2,
+    5 #2077e2, 6 #2077e2, 7 #2077e2, 8 #2077e2, 9 #2077e2;
+}
+@font-palette-values --Nabla-white {
+  font-family: Nabla;
+  // couleurs personnalisées
+  override-colors: 0 #fffefd, 1 #fffefd, 2 #fffefd, 3 #fffefd, 4 #fffefd,
+    5 #fffefd, 6 #fffefd, 7 #fffefd, 8 #fffefd, 9 #fffefd;
 }
