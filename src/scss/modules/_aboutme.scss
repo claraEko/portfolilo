@@ -18,24 +18,19 @@
   margin-bottom: 26px;
 }
 .aboutme-star {
-  display: flex;
-  align-items: end;
-  justify-content: end;
-  margin-left: 200px;
-  margin-top: -80px;
+  overflow: hidden;
 }
 .aboutme-stars {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: -61px;
+  position: absolute;
+  right: 100px;
+  bottom: -300px;
 }
 .aboutme-big-star {
   display: flex;
   padding-left: 50px;
   align-items: center;
-  gap: 10px;
   margin-top: -30px;
 }
 .aboutme-smal-title {
