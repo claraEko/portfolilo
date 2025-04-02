@@ -73,14 +73,21 @@
     <div class="container">
       <div class="row">
         <div class="col-11 offset-1">
+        
           <div class="aboutme-logiciel">
-            <div class="aboutme-icon"><img src="icon/Figma.svg" alt="" /></div>
             <div class="aboutme-icon">
-              <img src="icon/VScode.svg" alt="" />
+              <a href="https://www.figma.com/fr-fr/"> <img src="icon/Figma.svg" alt="" /></a>
+             </div>
+            <div class="aboutme-icon">
+              <a href="https://code.visualstudio.com/"> <img src="icon/VScode.svg" alt="" /></a>
+             
             </div>
-            <div class="aboutme-icon"><img src="icon/AI.svg" alt="" /></div>
-            <div class="aboutme-icon"><img src="icon/AE.svg" alt="" /></div>
-            <div class="aboutme-icon"><img src="icon/PS.svg" alt="" /></div>
+            <div class="aboutme-icon">
+              <a href="https://www.adobe.com/ch_fr/products/illustrator.html"><img src="icon/AI.svg" alt="" /></a></div>
+            <div class="aboutme-icon">
+              <a href="https://www.adobe.com/ch_fr/products/aftereffects/campaign/pricing.html?mv=search&mv2=paidsearch&sdid=G85SYKHF&ef_id=CjwKCAjwwLO_BhB2EiwAx2e-34wosuKQ3yWVxRNLzILa708TVAxwZWD3llQVT6asXu5a-inj2sDmMBoCxCoQAvD_BwE:G:s&s_kwcid=AL!3085!3!600350890788!e!!g!!adobe%20after%20effects!1437380373!58986640449&gad_source=1&gclid=CjwKCAjwwLO_BhB2EiwAx2e-34wosuKQ3yWVxRNLzILa708TVAxwZWD3llQVT6asXu5a-inj2sDmMBoCxCoQAvD_BwE"><img src="icon/AE.svg" alt="" /></a></div>
+            <div class="aboutme-icon">
+              <a href="https://www.adobe.com/ch_fr/products/photoshop/landpa.html?mv=search&mv2=paidsearch&sdid=2XBSBWBF&ef_id=CjwKCAjwwLO_BhB2EiwAx2e-3xlMDEsIbjQkUTrbEIWinrVsc7V7EoW7hFzaEc88oLCiZ16hWxyLdBoC62AQAvD_BwE:G:s&s_kwcid=AL!3085!3!718052706917!e!!g!!adobe%20photoshop!1437380148!58986630169&gad_source=1&gclid=CjwKCAjwwLO_BhB2EiwAx2e-3xlMDEsIbjQkUTrbEIWinrVsc7V7EoW7hFzaEc88oLCiZ16hWxyLdBoC62AQAvD_BwE"><img src="icon/PS.svg" alt="" /></a></div>
           </div>
         </div>
       </div>
@@ -97,7 +104,8 @@
         <div class="col-11 offset-1">
           <div class="aboutme-contact">
             <div class="aboutme-icon">
-              <img src="icon/discord.svg" alt="" />
+              <a href="https://discordapp.com/users/1066304810921513000"><img src="icon/discord.svg" alt="" /></a>
+              
             </div>
             <div class="aboutme-icon">
               <a
@@ -124,12 +132,18 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <div class="project-title">Project</div>
+          <div class="project-title">Projects</div>
         </div>
       </div>
     </div>
-    <extends src="project-card.html"></extends>
-    <extends src="project-card.html"></extends>
+    <extends
+    src="project-card.html"
+    locals='{"name":"Customize Product","date":"13.01.2025","img":"IMG/UID-CP-IM21-DelVecchioClara@2x copie.png","page":"customize-product.html"}'
+  ></extends>
+  <extends
+  src="project-card.html"
+  locals='{"name":"Logo Type","date":"28.10.2024","img":"IMG/logo-type/Plan de travail 6@4x-100.jpg","page":"customize-product.html"}'
+></extends>
     <extends src="footer.html"></extends>
 
     <script src="js/main.js" type="module"></script>
