@@ -83,6 +83,31 @@
   align-items: center;
   gap: 20px;
   flex-shrink: 0;
+  height: 108px;
+}
+.discord {
+  transition-duration: 0.5s;
+}
+.discord:hover {
+  margin-bottom: 30px;
+}
+.insta {
+  transition-duration: 0.5s;
+}
+.insta:hover {
+  margin-bottom: 30px;
+}
+.mail {
+  transition-duration: 0.5s;
+}
+.mail:hover {
+  margin-bottom: 30px;
+}
+.linktree {
+  transition-duration: 0.5s;
+}
+.linktree:hover {
+  margin-bottom: 30px;
 }
 .aboutme-logiciel {
   display: flex;
@@ -94,5 +119,29 @@
   transition-duration: 0.5s;
 }
 .figma:hover {
+  margin-bottom: 30px;
+}
+.VScode {
+  transition-duration: 0.5s;
+}
+.VScode:hover {
+  margin-bottom: 30px;
+}
+.Ai {
+  transition-duration: 0.5s;
+}
+.Ai:hover {
+  margin-bottom: 30px;
+}
+.AE {
+  transition-duration: 0.5s;
+}
+.AE:hover {
+  margin-bottom: 30px;
+}
+.PS {
+  transition-duration: 0.5s;
+}
+.PS:hover {
   margin-bottom: 30px;
 }
