@@ -33,15 +33,40 @@
   align-items: center;
   margin-top: -30px;
 }
+
+@keyframes changeSize {
+  // <== a regarder pour un rotate en meme temps que scale
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.big-star.zoom {
+  animation-name: changeSize;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+}
 .big-star.is-active {
   transform: rotate(360deg);
   transition: transform 2.4s ease-in-out;
 }
+
 .smal-star.is-active {
   transform: rotate(360deg);
   transition: transform 2.4s ease-in-out;
 }
-
+.smal-star.zoom {
+  animation-name: changeSize;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+}
 .aboutme-smal-title {
   color: var(--darck-blue, #2077e2);
   font-family: Orbitron;
