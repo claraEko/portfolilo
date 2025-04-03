@@ -18,6 +18,9 @@ img,
 video {
   display: block;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 @font-palette-values --Nabla-blue {
   font-family: Nabla;

@@ -33,6 +33,15 @@
   align-items: center;
   margin-top: -30px;
 }
+.big-star.is-active {
+  transform: rotate(360deg);
+  transition: transform 2.4s ease-in-out;
+}
+.smal-star.is-active {
+  transform: rotate(360deg);
+  transition: transform 2.4s ease-in-out;
+}
+
 .aboutme-smal-title {
   color: var(--darck-blue, #2077e2);
   font-family: Orbitron;
