@@ -88,4 +88,11 @@
   display: flex;
   align-items: center;
   gap: 18px;
+  height: 106px;
+}
+.figma {
+  transition-duration: 0.5s;
+}
+.figma:hover {
+  margin-bottom: 30px;
 }
