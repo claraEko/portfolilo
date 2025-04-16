@@ -7,6 +7,7 @@
   height: 100vh;
   min-height: 600px;
   margin-bottom: 30px;
+  flex-shrink: 0;
 }
 
 .first-project-date {
@@ -52,5 +53,5 @@
   align-items: center;
   position: relative;
   padding-bottom: 30px;
-  overflow: hidden; //=> regler problème
+  overflow: hidden;
 }
