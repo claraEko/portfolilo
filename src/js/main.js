@@ -29,6 +29,7 @@ smalStar.addEventListener("click", smalZoomStars);
 const dots = document.querySelectorAll("#dot ul li");
 const sections = [
   document.querySelector("#aboutme"),
+  document.querySelector("#Mise-en-page"),
   document.querySelector("#customize-product-card"),
   document.querySelector("#logo-type-card"),
 ];

@@ -145,3 +145,43 @@
 .PS:hover {
   margin-bottom: 30px;
 }
+
+.aboutme-sona {
+  height: 40vw;
+  position: relative;
+  margin-left: 50vw;
+  rotate: -10deg;
+  margin-top: -200px;
+  margin-bottom: -12vw;
+  z-index: -1;
+}
+@media (min-width: 1300px) {
+  .aboutme-sona {
+    margin-top: -280px;
+  }
+}
+@media (min-width: 1550px) {
+  .aboutme-sona {
+    margin-top: -350px;
+  }
+}
+@media (min-width: 2010px) {
+  .aboutme-sona {
+    margin-top: -380px;
+  }
+}
+@media (min-width: 2250px) {
+  .aboutme-sona {
+    margin-top: -400px;
+  }
+}
+@media (min-width: 2300px) {
+  .aboutme-sona {
+    margin-top: -450px;
+  }
+}
+@media (min-width: 2450px) {
+  .aboutme-sona {
+    margin-top: -500px;
+  }
+}

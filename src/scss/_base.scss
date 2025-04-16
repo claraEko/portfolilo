@@ -23,14 +23,12 @@ img,
 video {
   display: block;
 }
-html {
-  scroll-behavior: smooth;
-}
 
 html,
 body {
   height: 100%; /* S'assurer que le body prend toute la hauteur de la fenêtre */
   overflow: hidden; /* Empêche le défilement global du body */
+  scroll-behavior: smooth;
 }
 body {
   display: flex;
