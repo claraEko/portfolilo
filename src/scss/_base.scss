@@ -27,24 +27,21 @@ html {
   scroll-behavior: smooth;
 }
 
-// html,
-// body {
-//   height: 100%; /* S'assurer que le body prend toute la hauteur de la fenêtre */
-//   overflow: hidden; /* Empêche le défilement global du body */
-// }
-// body {
-//   display: flex;
-//   flex-direction: column;
-//   scroll-snap-type: y mandatory; /* Applique le snap vertical */
-//   overflow-y: scroll; /* Permet le défilement vertical */
-// }
-// .section {
-//   height: 100vh; /* Chaque section prend 100% de la hauteur de la fenêtre */
-//   scroll-snap-align: start; /* Aligne chaque section au début de la vue */
-// }
-// .section {
-//   margin-top: 400px;
-// }
+html,
+body {
+  height: 100%; /* S'assurer que le body prend toute la hauteur de la fenêtre */
+  overflow: hidden; /* Empêche le défilement global du body */
+}
+body {
+  display: flex;
+  flex-direction: column;
+  scroll-snap-type: y proximity; /* Applique le snap vertical */
+  overflow-y: scroll; /* Permet le défilement vertical */
+}
+.section {
+  scroll-snap-align: start;
+}
+
 @font-palette-values --Nabla-blue {
   font-family: Nabla;
   // couleurs personnalisées

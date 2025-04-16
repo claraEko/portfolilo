@@ -33,14 +33,15 @@ const sections = [
   document.querySelector("#logo-type-card"),
 ];
 
-window.addEventListener("scroll", () => {
+var body = document.querySelector("body");
+
+body.addEventListener("scroll", () => {
   let currentIndex = -1;
 
   sections.forEach((section, index) => {
     const sectionTop = section.offsetTop;
     const sectionHeight = section.offsetHeight;
-
-    if (window.scrollY >= sectionTop + window.innerHeight / 2) {
+    if (body.scrollTop >= sectionTop + window.innerHeight / 2) {
       currentIndex = index;
     }
   });
