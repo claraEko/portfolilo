@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 595.28 841.89">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #78a8da;
+      }
+    </style>
+  </defs>
+  <g id="Calque_3" data-name="Calque 3">
+    <path class="cls-1" d="M115.29,113.33v555.21h37.36l18.41-11.78c15.97-15.25,28.37-28.21,36.88-37.39,12.5-13.48,21.37-23.94,37.04-36.72,7.84-6.4,14.69-11.18,19.35-14.27,8.22,6.57,16.43,13.13,24.65,19.7l30.51,68.7,36.82,73.59,61.16,14.04,28.27-29.98-5.57-46.69-32.55-40.69-2.14-31.27-30.76-33.41,11.48-37.26,140.06-8.57-6.42-35.55-11.56-5.14-254.42-254.42-110.93-110.5-27.64,2.38Z"/>
+  </g>
+  <g id="Calque_1" data-name="Calque 1">
+    <rect class="cls-2" x="96.34" y="65.23" width="37.89" height="628.95"/>
+    <rect class="cls-2" x="132.14" y="102.23" width="39.47" height="36.82"/>
+    <rect class="cls-2" x="171.61" y="139.06" width="36.82" height="36.82"/>
+    <rect class="cls-2" x="208.44" y="175.88" width="36.82" height="36.82"/>
+    <rect class="cls-2" x="245.91" y="213.36" width="36.82" height="36.82"/>
+    <rect class="cls-2" x="282.74" y="250.19" width="36.82" height="36.82"/>
+    <rect class="cls-2" x="319.56" y="287.01" width="36.82" height="36.82"/>
+    <rect class="cls-2" x="356.38" y="323.83" width="36.82" height="36.82"/>
+    <rect class="cls-2" x="393.21" y="360.66" width="36.82" height="36.82"/>
+    <rect class="cls-2" x="430.03" y="397.48" width="36.82" height="36.82"/>
+    <rect class="cls-2" x="466.86" y="434.31" width="36.82" height="36.82"/>
+    <rect class="cls-2" x="503.68" y="471.13" width="37.83" height="74.47"/>
+    <rect class="cls-2" x="356.3" y="508.37" width="149.69" height="37.64"/>
+    <rect class="cls-2" x="356.3" y="546.01" width="36.82" height="36.82"/>
+    <rect class="cls-2" x="393.84" y="583.24" width="36.82" height="73.55"/>
+    <rect class="cls-2" x="430.67" y="656.8" width="36.82" height="73.59"/>
+    <rect class="cls-2" x="356.3" y="730.39" width="74.36" height="36.82"/>
+    <rect class="cls-2" x="319.48" y="656.77" width="36.82" height="73.62"/>
+    <rect class="cls-2" x="282.66" y="583.24" width="36.82" height="73.55"/>
+    <rect class="cls-2" x="245.91" y="546.01" width="36.82" height="36.82"/>
+    <rect class="cls-2" x="209.09" y="582.84" width="36.82" height="36.82"/>
+    <rect class="cls-2" x="172.26" y="619.97" width="36.82" height="36.82"/>
+    <rect class="cls-2" x="134.23" y="656.77" width="36.82" height="36.82"/>
+  </g>
+</svg>
