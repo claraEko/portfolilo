@@ -5,6 +5,18 @@
   margin-right: 25px;
   margin-bottom: 25px;
   position: sticky;
-  top: calc(100% - 150px);
+  top: calc(100% - 210px);
   right: 0;
+}
+.logo {
+  height: 150px;
+}
+
+.cursor {
+  width: 57px;
+  height: 70px;
+  background-image: url("../icon/pointeur.svg");
+  position: fixed;
+  pointer-events: none;
+  z-index: 3;
 }

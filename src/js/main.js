@@ -59,3 +59,26 @@ dots.forEach((dot, index) => {
     sections[index].scrollIntoView({ behavior: "smooth" });
   });
 });
+
+var cursor = document.querySelector(".cursor");
+var links = document.querySelectorAll("a");
+
+var onMouseMove = function (event) {
+  cursor.style.top = event.y - 15 + "px";
+  cursor.style.left = event.x - 15 + "px";
+};
+
+var onMouseEnter = function () {
+  cursor.style.backgroundImage = "url('../icon/curser.svg')";
+};
+
+var onMouseLeave = function () {
+  cursor.style.backgroundImage = "url('../icon/pointeur.svg')";
+};
+
+document.addEventListener("mousemove", onMouseMove);
+
+links.forEach((link) => {
+  link.addEventListener("mouseenter", onMouseEnter);
+  link.addEventListener("mouseleave", onMouseLeave);
+});
